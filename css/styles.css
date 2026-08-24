@@ -72,15 +72,13 @@ section {
 }
 
 .application-card {
-  display: grid;
-  grid-template-columns: minmax(250px, .9fr) minmax(0, 1.1fr);
-  gap: 34px;
-  align-items: center;
+  padding: 0;
+  overflow: hidden;
 }
 
 .application-visual {
   min-height: 245px;
-  padding: 22px;
+  padding: 28px;
   border-radius: 6px;
   box-sizing: border-box;
   overflow: hidden;
@@ -108,6 +106,36 @@ section {
   color: #56616b;
   background: #f1f3f2;
   border: 1px dashed #9ba8a9;
+}
+
+.application-details {
+  max-width: 760px;
+  margin-top: 30px;
+  padding-top: 22px;
+  border-top: 1px solid rgba(255,255,255,.2);
+}
+
+.lego-visual .application-details,
+.more-visual .application-details {
+  border-top-color: rgba(23,32,42,.16);
+}
+
+.application-details h2 {
+  margin-bottom: 12px;
+  color: inherit;
+}
+
+.application-details p {
+  margin: 0 0 14px;
+}
+
+.career-visual a {
+  color: #a9e2f4;
+}
+
+.lego-visual a,
+.more-visual a {
+  color: #236b50;
 }
 
 .visual-topline,
@@ -230,13 +258,9 @@ section {
 }
 
 @media (max-width: 700px) {
-  .application-card {
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
-
   .application-visual {
     min-height: 220px;
+    padding: 22px;
   }
 }
 
