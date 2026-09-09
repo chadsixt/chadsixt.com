@@ -90,6 +90,29 @@ section {
   border: 1px solid #2c536f;
 }
 
+.radar-visual {
+  color: #f5faf7;
+  background: #183d30;
+  border: 1px solid #386a53;
+}
+
+.radar-visual .visual-topline {
+  flex-wrap: wrap;
+}
+
+.radar-image {
+  display: block;
+  width: 100%;
+  max-width: 760px;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 6px;
+}
+
+.radar-visual .signal-grid {
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+}
+
 .lego-visual {
   color: #17202a;
   background: #e9f2f4;
