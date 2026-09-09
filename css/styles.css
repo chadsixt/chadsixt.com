@@ -152,7 +152,8 @@ section {
   margin: 0 0 14px;
 }
 
-.career-visual a {
+.career-visual a,
+.radar-visual a {
   color: #a9e2f4;
 }
 
