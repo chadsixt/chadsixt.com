@@ -84,6 +84,7 @@ section {
   overflow: hidden;
 }
 
+.solar-visual,
 .career-visual {
   color: #f9fbff;
   background: #19324a;
@@ -100,6 +101,7 @@ section {
   flex-wrap: wrap;
 }
 
+.solar-image,
 .radar-image {
   display: block;
   width: 100%;
